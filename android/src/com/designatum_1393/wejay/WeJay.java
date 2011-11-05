@@ -37,7 +37,7 @@ public class WeJay extends Activity
 		/** create socket **/
 		Socket skt;
 		try {
-			skt = new Socket( "10.0.0.9", 80 );
+			skt = new Socket( "10.0.0.9", 51393 );
 
 			// Write to socket source: http://thinkandroid.wordpress.com/2010/03/27/incorporating-socket-programming-into-your-applications/
 			PrintWriter out;
